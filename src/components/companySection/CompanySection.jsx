@@ -23,6 +23,7 @@ export const CompanySection = () => {
                 <img src={Company5} alt="" />
             </div>
             <div className='company__container'>
+
                 <div className='company__left'>
                     <img src={Phone} alt="" className='img-1' />
                     <div className='img-2'>
@@ -32,9 +33,8 @@ export const CompanySection = () => {
                         <img src={Playstore} alt="" />
                     </div>
                 </div>
-            </div>
 
-            <div className="company__right">
+                <div className="company__right">
                 <h3>SasCard work precess</h3>
                 <p>We so entreaties cultivated astonished is. Offered chiefly farther of my no colonel shyness.
                     Such on help ye some door if in
@@ -66,6 +66,9 @@ export const CompanySection = () => {
                     </div>
                 </div>
             </div>
+            </div>
+
+
         </Wrapper>
         <img src={Bg} alt="" className='company__bg' />
     </section>
