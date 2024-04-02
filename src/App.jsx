@@ -4,6 +4,7 @@ import { CompanySection } from "./components/companySection/CompanySection"
 import { FeatureSection } from "./components/featureSection/FeatureSection"
 import { PaymentSection } from "./components/paymentSection/PaymentSection"
 import { CtaSection } from "./components/ctaSection/CtaSection"
+import { PlansSetion } from "./components/plansSection/PlansSetion"
 function App() {
 
 
@@ -15,6 +16,7 @@ function App() {
       <FeatureSection />
       <PaymentSection />
       <CtaSection />
+      <PlansSetion />
     </>
   )
 }
