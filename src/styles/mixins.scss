@@ -1,0 +1,31 @@
+//media query
+
+// 0 - 600px phone
+// 600px - 900px : tablet
+// 900px - 1200px: tablet monitor
+// 1200px - 1800px: desktop
+
+// $breakpoint devices
+// phone
+// tab-port
+// tab-land
+// desktop
+
+@mixin respond($breakpoint){
+    @if $breakpoint == phone{
+        @media screen and (max-width:600px ){
+            @content;
+        } // 600px
+    }
+    @if $breakpoint == tab-port{
+        @media screen and (max-width:900px ){
+            @content;
+        } // 900px
+    }
+    @if $breakpoint == tab-land{
+        @media screen and (max-width:1200px ){
+            @content;
+        } // 1200px
+    }
+
+}
